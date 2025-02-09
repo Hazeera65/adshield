@@ -1,0 +1,107 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  width: 100%;
+}
+
+.navbar button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #555;
+}
+
+.navbar button.active {
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+/* Content Section */
+.content {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Login and Signup Forms Styling */
+.login-container, .signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container input, .signup-container input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button, .signup-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover, .signup-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container p, .signup-container p {
+  margin-top: 10px;
+}
+
+.login-container a, .signup-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-container a:hover, .signup-container a:hover {
+  text-decoration: underline;
+}
